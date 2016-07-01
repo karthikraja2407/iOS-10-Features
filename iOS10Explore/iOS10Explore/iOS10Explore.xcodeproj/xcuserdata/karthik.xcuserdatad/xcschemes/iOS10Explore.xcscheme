@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D0D4141D26F8880060845A"
+               BlueprintIdentifier = "25D0D4501D26F9700060845A"
                BuildableName = "iOS10Explore.app"
                BlueprintName = "iOS10Explore"
                ReferencedContainer = "container:iOS10Explore.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D0D42A1D26F8880060845A"
+               BlueprintIdentifier = "25D0D4641D26F9700060845A"
                BuildableName = "iOS10ExploreTests.xctest"
                BlueprintName = "iOS10ExploreTests"
                ReferencedContainer = "container:iOS10Explore.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D0D4351D26F8880060845A"
+               BlueprintIdentifier = "25D0D46F1D26F9700060845A"
                BuildableName = "iOS10ExploreUITests.xctest"
                BlueprintName = "iOS10ExploreUITests"
                ReferencedContainer = "container:iOS10Explore.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D0D4141D26F8880060845A"
+            BlueprintIdentifier = "25D0D4501D26F9700060845A"
             BuildableName = "iOS10Explore.app"
             BlueprintName = "iOS10Explore"
             ReferencedContainer = "container:iOS10Explore.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D0D4141D26F8880060845A"
+            BlueprintIdentifier = "25D0D4501D26F9700060845A"
             BuildableName = "iOS10Explore.app"
             BlueprintName = "iOS10Explore"
             ReferencedContainer = "container:iOS10Explore.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D0D4141D26F8880060845A"
+            BlueprintIdentifier = "25D0D4501D26F9700060845A"
             BuildableName = "iOS10Explore.app"
             BlueprintName = "iOS10Explore"
             ReferencedContainer = "container:iOS10Explore.xcodeproj">
