@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2563E6CB1D2EB2620022C4EB /* Jennifer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2563E6CA1D2EB2620022C4EB /* Jennifer.mp3 */; };
+		25B60C9A1D2EBF2B00769CBD /* No_One_Is_Perfect_Theme-VmusiQ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25B60C991D2EBF2B00769CBD /* No_One_Is_Perfect_Theme-VmusiQ.mp3 */; };
+		25B60C9C1D2ECB4400769CBD /* cairnomount_lo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25B60C9B1D2ECB4400769CBD /* cairnomount_lo.mp3 */; };
 		25D0D4551D26F9700060845A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D4541D26F9700060845A /* AppDelegate.swift */; };
 		25D0D4571D26F9700060845A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D4561D26F9700060845A /* ViewController.swift */; };
 		25D0D45A1D26F9700060845A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D0D4581D26F9700060845A /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		25D0D45F1D26F9700060845A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D0D45D1D26F9700060845A /* LaunchScreen.storyboard */; };
 		25D0D46A1D26F9700060845A /* iOS10ExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D4691D26F9700060845A /* iOS10ExploreTests.swift */; };
 		25D0D4751D26F9700060845A /* iOS10ExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D4741D26F9700060845A /* iOS10ExploreUITests.swift */; };
+		25D0D4881D26FEA00060845A /* SpeechRecognitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D0D4871D26FEA00060845A /* SpeechRecognitionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2563E6CA1D2EB2620022C4EB /* Jennifer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jennifer.mp3; sourceTree = "<group>"; };
+		25B60C991D2EBF2B00769CBD /* No_One_Is_Perfect_Theme-VmusiQ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No_One_Is_Perfect_Theme-VmusiQ.mp3"; sourceTree = "<group>"; };
+		25B60C9B1D2ECB4400769CBD /* cairnomount_lo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cairnomount_lo.mp3; sourceTree = "<group>"; };
 		25D0D4511D26F9700060845A /* iOS10Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS10Explore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0D4541D26F9700060845A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25D0D4561D26F9700060845A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		25D0D4701D26F9700060845A /* iOS10ExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS10ExploreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D0D4741D26F9700060845A /* iOS10ExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10ExploreUITests.swift; sourceTree = "<group>"; };
 		25D0D4761D26F9700060845A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D0D4871D26FEA00060845A /* SpeechRecognitionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechRecognitionVC.swift; path = SpeechRecognition/SpeechRecognitionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2563E6C91D2EB2620022C4EB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				25B60C9B1D2ECB4400769CBD /* cairnomount_lo.mp3 */,
+				25B60C991D2EBF2B00769CBD /* No_One_Is_Perfect_Theme-VmusiQ.mp3 */,
+				2563E6CA1D2EB2620022C4EB /* Jennifer.mp3 */,
+			);
+			path = resources;
+			sourceTree = SOURCE_ROOT;
+		};
 		25D0D4481D26F9700060845A = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +115,8 @@
 		25D0D4531D26F9700060845A /* iOS10Explore */ = {
 			isa = PBXGroup;
 			children = (
+				2563E6C91D2EB2620022C4EB /* resources */,
+				25D0D4861D26FE8A0060845A /* Speech Recognition */,
 				25D0D4541D26F9700060845A /* AppDelegate.swift */,
 				25D0D4561D26F9700060845A /* ViewController.swift */,
 				25D0D4581D26F9700060845A /* Main.storyboard */,
@@ -123,6 +143,14 @@
 				25D0D4761D26F9700060845A /* Info.plist */,
 			);
 			path = iOS10ExploreUITests;
+			sourceTree = "<group>";
+		};
+		25D0D4861D26FE8A0060845A /* Speech Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				25D0D4871D26FEA00060845A /* SpeechRecognitionVC.swift */,
+			);
+			name = "Speech Recognition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,15 +222,18 @@
 					25D0D4501D26F9700060845A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5P7K8EQMRR;
+						LastSwiftMigration = 0800;
 					};
 					25D0D4641D26F9700060845A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5P7K8EQMRR;
+						LastSwiftMigration = 0800;
 						TestTargetID = 25D0D4501D26F9700060845A;
 					};
 					25D0D46F1D26F9700060845A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5P7K8EQMRR;
+						LastSwiftMigration = 0800;
 						TestTargetID = 25D0D4501D26F9700060845A;
 					};
 				};
@@ -235,6 +266,9 @@
 				25D0D45F1D26F9700060845A /* LaunchScreen.storyboard in Resources */,
 				25D0D45C1D26F9700060845A /* Assets.xcassets in Resources */,
 				25D0D45A1D26F9700060845A /* Main.storyboard in Resources */,
+				25B60C9C1D2ECB4400769CBD /* cairnomount_lo.mp3 in Resources */,
+				25B60C9A1D2EBF2B00769CBD /* No_One_Is_Perfect_Theme-VmusiQ.mp3 in Resources */,
+				2563E6CB1D2EB2620022C4EB /* Jennifer.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D0D4881D26FEA00060845A /* SpeechRecognitionVC.swift in Sources */,
 				25D0D4571D26F9700060845A /* ViewController.swift in Sources */,
 				25D0D4551D26F9700060845A /* AppDelegate.swift in Sources */,
 			);
@@ -408,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storybuilder.authentication.iOS10Explore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -419,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storybuilder.authentication.iOS10Explore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -430,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storybuilder.authentication.iOS10ExploreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10Explore.app/iOS10Explore";
 			};
 			name = Debug;
@@ -442,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storybuilder.authentication.iOS10ExploreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10Explore.app/iOS10Explore";
 			};
 			name = Release;
@@ -453,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storybuilder.authentication.iOS10ExploreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = iOS10Explore;
 			};
 			name = Debug;
@@ -464,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storybuilder.authentication.iOS10ExploreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = iOS10Explore;
 			};
 			name = Release;
@@ -487,6 +528,7 @@
 				25D0D47B1D26F9700060845A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25D0D47C1D26F9700060845A /* Build configuration list for PBXNativeTarget "iOS10ExploreTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +537,7 @@
 				25D0D47E1D26F9700060845A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25D0D47F1D26F9700060845A /* Build configuration list for PBXNativeTarget "iOS10ExploreUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +546,7 @@
 				25D0D4811D26F9700060845A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
